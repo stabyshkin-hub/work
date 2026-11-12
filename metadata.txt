@@ -1,0 +1,46 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=Clip Reproject
+qgisMinimumVersion=3.0
+description=Обрезка и преобразование векторных данных
+version=0.1
+author=KalmikovStepan
+email=kalmykovstepan4@gmail.com
+
+about=Плагин предназначен для подготовки набора пространственных данных OpenStreetMap. Выполняет выбор административной территории по атрибуту, обрезку векторных слоев по выбранной границе и перепроецирование результатов в заданную зону ГСК-2011.
+
+tracker=https://github.com/kalmykovstepan4-arch/clip_reproject/issues
+repository=https://github.com/kalmykovstepan4-arch/clip_reproject
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, vector, clip, reproject, osm, openstreetmap
+
+homepage=https://github.com/kalmykovstepan4-arch/clip_reproject
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+
+# If the plugin can run on QGIS Server.
+server=False
+
